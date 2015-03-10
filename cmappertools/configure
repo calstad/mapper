@@ -16270,7 +16270,7 @@ done
 
 
 
-for flag in -Wl,--gc-sections -Wl,-s; do
+for flag in -Wl,--gc-sections -Wl; do
   as_CACHEVAR=`$as_echo "ax_cv_check_ldflags__$flag" | $as_tr_sh`
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking whether the linker accepts $flag" >&5
 $as_echo_n "checking whether the linker accepts $flag... " >&6; }
